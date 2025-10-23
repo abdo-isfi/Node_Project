@@ -1,4 +1,0 @@
-[19:27:11] {"timestamp":"2025-10-22T18:27:11.660Z","freeBytes":2281426944,"totalBytes":8175890432,"freePct":27.9,"uptimeSec":27025}
-[19:27:16] {"timestamp":"2025-10-22T18:27:16.668Z","freeBytes":2270920704,"totalBytes":8175890432,"freePct":27.78,"uptimeSec":27030}
-[19:27:21] {"timestamp":"2025-10-22T18:27:21.673Z","freeBytes":2240040960,"totalBytes":8175890432,"freePct":27.4,"uptimeSec":27035}
-[19:27:26] {"timestamp":"2025-10-22T18:27:26.678Z","freeBytes":2374864896,"totalBytes":8175890432,"freePct":29.05,"uptimeSec":27040}

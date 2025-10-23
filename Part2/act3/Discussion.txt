@@ -1,5 +1,0 @@
-Que se passe-t-il si l’écouteur est enregistré après l’émission de l’événement ?
-=> Si l’écouteur est ajouté après l’émission, il ne recevra pas l’événement. EventEmitter n’enregistre pas les événements passés.
-
-Peut-on avoir plusieurs écouteurs pour un même événement ?
-=> Oui, on peut attacher plusieurs écouteurs à un même événement. Chacun sera exécuté dans l’ordre où il a été enregistré.
