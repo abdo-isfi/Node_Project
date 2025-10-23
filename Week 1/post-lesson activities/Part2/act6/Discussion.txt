@@ -1,0 +1,11 @@
+1 Que signifie “non-bloquant” dans le contexte du module fs ?
+=> Les opérations de fs non-bloquantes (asynchrones) ne bloquent pas l’exécution du code. Node peut continuer à exécuter d’autres tâches pendant que le fichier est lu ou écrit.
+
+2 Comment les événements permettent-ils de découpler les modules ?
+=> Les événements permettent à un module d’informer d’autres modules sans avoir besoin de connaître leur implémentation. Cela réduit les dépendances et rend le code plus modulaire.
+
+3 Pourquoi un serveur HTTP Node peut-il gérer des milliers de connexions avec un seul thread ?
+=> Parce que Node utilise un modèle événementiel et non-bloquant. Le thread principal n’attend pas la fin des opérations I/O et peut gérer de nombreuses connexions simultanément.
+
+4 Quelle serait la prochaine étape (ex: Express, middlewares, JSON parsing) ?
+=> Utiliser un framework comme Express pour gérer les routes facilement, ajouter des middlewares pour la gestion des requêtes/réponses, et parser le JSON automatiquement pour simplifier le développement d’APIs.
