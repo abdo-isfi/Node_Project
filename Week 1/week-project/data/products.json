@@ -1,0 +1,182 @@
+[
+  {
+    "id": "prod-1",
+    "sku": "SKU-001",
+    "name": "Hammer",
+    "description": "Heavy duty hammer for construction",
+    "category": "Tools",
+    "price": 15.99,
+    "inStock": true
+  },
+  {
+    "id": "prod-2",
+    "sku": "SKU-002",
+    "name": "Screwdriver Set",
+    "description": "Multi-bit screwdriver set with magnetic tips",
+    "category": "Tools",
+    "price": 24.50,
+    "inStock": true
+  },
+  {
+    "id": "prod-3",
+    "sku": "SKU-003",
+    "name": "Wrench Set",
+    "description": "Adjustable wrench set for various tasks",
+    "category": "Tools",
+    "price": 30.00,
+    "inStock": false
+  },
+  {
+    "id": "prod-4",
+    "sku": "SKU-004",
+    "name": "Drill",
+    "description": "Cordless power drill with extra battery",
+    "category": "Power Tools",
+    "price": 89.99,
+    "inStock": true
+  },
+  {
+    "id": "prod-5",
+    "sku": "SKU-005",
+    "name": "Tape Measure",
+    "description": "25-foot retractable tape measure",
+    "category": "Tools",
+    "price": 8.75,
+    "inStock": true
+  },
+  {
+    "id": "prod-6",
+    "sku": "SKU-006",
+    "name": "Safety Glasses",
+    "description": "ANSI approved safety glasses",
+    "category": "Safety Equipment",
+    "price": 12.00,
+    "inStock": true
+  },
+  {
+    "id": "prod-7",
+    "sku": "SKU-007",
+    "name": "Work Gloves",
+    "description": "Durable work gloves for heavy use",
+    "category": "Safety Equipment",
+    "price": 18.00,
+    "inStock": false
+  },
+  {
+    "id": "prod-8",
+    "sku": "SKU-008",
+    "name": "Pliers",
+    "description": "Multi-purpose pliers with comfortable grip",
+    "category": "Tools",
+    "price": 10.50,
+    "inStock": true
+  },
+  {
+    "id": "prod-9",
+    "sku": "SKU-009",
+    "name": "Level",
+    "description": "Magnetic torpedo level",
+    "category": "Tools",
+    "price": 17.00,
+    "inStock": true
+  },
+  {
+    "id": "prod-10",
+    "sku": "SKU-010",
+    "name": "Utility Knife",
+    "description": "Retractable utility knife with spare blades",
+    "category": "Tools",
+    "price": 9.25,
+    "inStock": true
+  },
+  {
+    "id": "prod-11",
+    "sku": "SKU-011",
+    "name": "Circular Saw",
+    "description": "High-powered circular saw for wood cutting",
+    "category": "Power Tools",
+    "price": 120.00,
+    "inStock": true
+  },
+  {
+    "id": "prod-12",
+    "sku": "SKU-012",
+    "name": "Orbital Sander",
+    "description": "Electric orbital sander for smooth finishes",
+    "category": "Power Tools",
+    "price": 65.00,
+    "inStock": true
+  },
+  {
+    "id": "prod-13",
+    "sku": "SKU-013",
+    "name": "Paint Brush Set",
+    "description": "Assorted paint brush set for various painting needs",
+    "category": "Painting",
+    "price": 22.00,
+    "inStock": true
+  },
+  {
+    "id": "prod-14",
+    "sku": "SKU-014",
+    "name": "Paint Roller",
+    "description": "Standard paint roller with extension pole",
+    "category": "Painting",
+    "price": 18.50,
+    "inStock": false
+  },
+  {
+    "id": "prod-15",
+    "sku": "SKU-015",
+    "name": "Drop Cloth",
+    "description": "Plastic drop cloth for protecting surfaces",
+    "category": "Painting",
+    "price": 7.00,
+    "inStock": true
+  },
+  {
+    "id": "prod-16",
+    "sku": "SKU-016",
+    "name": "Extension Cord",
+    "description": "50-foot heavy-duty outdoor extension cord",
+    "category": "Electrical",
+    "price": 25.00,
+    "inStock": true
+  },
+  {
+    "id": "prod-17",
+    "sku": "SKU-017",
+    "name": "LED Work Light",
+    "description": "Portable LED work light with stand",
+    "category": "Electrical",
+    "price": 45.00,
+    "inStock": true
+  },
+  {
+    "id": "prod-18",
+    "sku": "SKU-018",
+    "name": "Duct Tape",
+    "description": "Strong silver duct tape",
+    "category": "Adhesives",
+    "price": 6.00,
+    "inStock": true
+  },
+  {
+    "id": "prod-19",
+    "sku": "SKU-019",
+    "name": "Wood Glue",
+    "description": "Fast-drying wood glue for carpentry",
+    "category": "Adhesives",
+    "price": 11.00,
+    "inStock": true
+  },
+  {
+    "id": "prod-20",
+    "sku": "SKU-020",
+    "name": "Caulk Gun",
+    "description": "Standard caulk gun for sealants",
+    "category": "Tools",
+    "price": 14.00,
+    "inStock": true
+  }
+]
