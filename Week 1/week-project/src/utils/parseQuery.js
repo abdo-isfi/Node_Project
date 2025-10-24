@@ -1,3 +1,4 @@
+//parseQuery.js
 const parseQuery = (query) => {
     const parsed = {};
     for (const key in query) {

@@ -1,3 +1,4 @@
+//productsController.js
 const { getProducts, getProductById, getProductBySku } = require('../services/productsService');
 const { sendJson } = require('../utils/sendJson');
 const { parseQuery } = require('../utils/parseQuery');
