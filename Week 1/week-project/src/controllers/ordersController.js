@@ -2,7 +2,7 @@
 
 const { getOrders, getOrderById, getOrderByOrderNumber } = require('../services/ordersService');
 const { sendJson } = require('../utils/sendJson');
-const { parseQuery } = require('../utils/parseQuery');
+const parseQuery = require('../utils/parseQuery');
 
 const ordersController = (req, res, pathname, query, logResponse) => {
     if (req.method === 'GET') {

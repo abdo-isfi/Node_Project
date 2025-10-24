@@ -1,7 +1,7 @@
 //productsController.js
 const { getProducts, getProductById, getProductBySku } = require('../services/productsService');
 const { sendJson } = require('../utils/sendJson');
-const { parseQuery } = require('../utils/parseQuery');
+const parseQuery = require('../utils/parseQuery');
 
 const productsController = (req, res, pathname, query, logResponse) => {
     if (req.method === 'GET') {
