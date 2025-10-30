@@ -1,0 +1,39 @@
+//Activite 1
+
+1/ La différence est qu’un serveur Node.js natif utilise seulement le module http (tout est manuel), tandis qu’Express.js fournit une couche simplifiée avec des outils intégrés pour gérer les routes, les requêtes et les middlewares plus facilement.
+
+2/ Express gère automatiquement pour toi la création et le routage des requêtes HTTP, la gestion des paramètres, des middlewares, des fichiers statiques, et des erreurs, sans que tu aies à tout coder manuellement.
+
+//Activite 2
+
+
+1/ Le format JSON permet d’échanger facilement des données entre le serveur et le client, car il est léger, lisible et compris par tous les langages.
+
+2/ Chaque ressource a sa propre route (/api/products/:id) pour suivre la logique REST, où chaque URL représente une ressource précise (ex. un produit spécifique).
+
+
+//Activite 3
+
+1/ next() permet de passer l’exécution au middleware suivant ou à la route suivante dans la chaîne.
+
+2/ Un middleware global s’applique à toutes les routes, tandis qu’un middleware spécifique ne s’exécute que sur une route précise.
+
+3/ Les middlewares sont essentiels car ils permettent de gérer les requêtes (authentification, logs, erreurs, parsing, etc.) de façon modulaire et réutilisable.
+
+
+//Activite 4
+
+1/ Le middleware d’erreur doit être placé en dernier car Express exécute les middlewares dans l’ordre du code ; il doit donc venir après tous les autres pour intercepter les erreurs qu’ils génèrent.
+
+2/ throw new Error() interrompt immédiatement l’exécution et crée une erreur, tandis que next(err) passe l’erreur au middleware d’erreur d’Express pour qu’elle soit gérée proprement.
+
+
+//Activite 5
+
+1/ Servir un fichier statique (avec express.static) le rend directement accessible au client (ex. image, CSS, JS), tandis que lire un fichier JSON avec fs sert à récupérer et traiter des données côté serveur.
+
+2/ readFileSync bloque le thread principal, ce qui ralentit le serveur quand plusieurs requêtes arrivent en même temps.
+
+3/ Avec fs.promises, on peut lire un fichier de manière asynchrone :
+const fs = require("fs").promises;
+const data = await fs.readFile("data.json", "utf8");
